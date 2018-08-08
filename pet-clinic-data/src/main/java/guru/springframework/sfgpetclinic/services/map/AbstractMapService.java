@@ -17,6 +17,10 @@ public abstract class AbstractMapService<T, ID> {
         return map.get(id);
     }
 
+    T findByName(String name){
+        return null;
+    }
+
     T save(ID id, T object) {
         map.put(id, object);
 
